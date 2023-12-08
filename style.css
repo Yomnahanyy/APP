@@ -90,6 +90,13 @@ h2{
     box-shadow: 10px 10px 5px  0;
     border-radius: 20px;
 }
+@media (max-width:800px){
+    .box{
+          display: block;
+          width: 100%;
+          margin: 10px;
+    }
+}
 .box:hover{
     transform: scale(1.1);
     transition: 2s all;
@@ -122,6 +129,15 @@ div .Contact{
     flex-direction: column;
     gap:10px;
     color: #ffffffe9; 
+    margin: 30px;
+    padding: 20px;
+}
+@media (max-width:800px){
+    .contact{
+          display: block;
+          width: 100%;
+          margin: 10px;
+    }
 }
 .Contact-form{
     padding: 30px 30em;
@@ -134,10 +150,26 @@ div .Contact{
 .Contact-form .contact-input{
     margin-bottom: 30px;
 }
+@media (max-width:800px){
+    .Contact-form ,.contact-input  {
+          display: block;
+          width: 100%;
+          min-height: 0;
+          padding: 0px 4em;
+    }
+}
 .Contact-form .contact-input label{
     display: block;
     margin-bottom: 10px;
     font-size: 17px;
+}
+@media (max-width:800px){
+    .Contact-form ,.contact-input label {
+          display: block;
+          width: 100%;
+          min-height: 0;
+          padding: 0px 4em;
+    }
 }
 .Contact-form .contact-input input , 
 .Contact-form .contact-input textarea{
@@ -145,6 +177,14 @@ width: 100%;
 padding: 10px;
 border: 1px solid black;
 border-radius: 5px;
+}
+@media (max-width:800px){
+    .Contact-form .contact-input input , 
+    .Contact-form .contact-input textarea {
+          display: block;
+          width: 100%;
+          margin: 10px;
+    }
 }
 .send{
     width: 115px;
@@ -166,6 +206,13 @@ border-radius: 5px;
     font-size: 32px;
     text-align: center;
     margin-left: 30px;
+}
+@media (max-width:800px)and (max-width:1023px){
+    div ,.icons a  {
+          display: block;
+          width: 100%;
+          margin: 10px;
+    }
 }
 div .boxx{
     background-color: #ffffff;
